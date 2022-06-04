@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.darkModeToggle {
+	@apply rounded-3xl w-14 h-8 z-10
+}
+
+.switcher {
+	@apply rounded-3xl w-6 h-6 z-20 ml-1 mt-1 dark:ml-7 translate-y-1
+}
